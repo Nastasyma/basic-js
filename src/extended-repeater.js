@@ -18,6 +18,7 @@ const { NotImplementedError } = require('../extensions/index.js');
 function repeater(str, options) {
   //throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
+  let newStr = '';
   if(!options.additionSeparator) {
     options.additionSeparator = "|";
   }
@@ -32,7 +33,7 @@ function repeater(str, options) {
     newStr = `${str}${options.separator}`
     return `${newStr.repeat(options.repeatTimes-1)}${str}`;
   } else {
-    let newStr =`${str}${options.addition}${options.separator}`;
+    newStr =`${str}${options.addition}${options.separator}`;
     return `${newStr.repeat(options.repeatTimes-1)}${str}${options.addition}`;
   }
 }
