@@ -24,3 +24,32 @@ function getMatrixElementsSum(/* matrix */) {
 module.exports = {
   getMatrixElementsSum
 };
+
+/*console.log(getMatrixElementsSum([
+  [0, 1, 1, 2],
+  [0, 5, 0, 0],
+  [2, 0, 3, 3],
+])) //9
+
+console.log(getMatrixElementsSum([
+  [1, 2, 3, 4],
+  [0, 5, 0, 0],
+  [2, 0, 3, 3],
+])) //15
+
+console.log(getMatrixElementsSum([
+  [1, 1, 1],
+  [2, 2, 2],
+  [3, 3, 3],
+])) //18
+
+console.log(getMatrixElementsSum([
+  [0],
+])) //0
+
+console.log(getMatrixElementsSum([
+  [1],
+  [5],
+  [0],
+  [2],
+])) //6*/
